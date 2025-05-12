@@ -1,0 +1,1 @@
+from .web_knowledge_fetcher import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
