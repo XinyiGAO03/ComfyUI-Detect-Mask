@@ -37,7 +37,6 @@ Filter bad words online using a customizable bad word list or URL list.
 - `badwords_url` (string, provided by default)
 - **Output**:
 - censored/filtered text (bad words are replaced with "***")
----
 
 ### YOLO
 
@@ -49,7 +48,6 @@ Sends an image to a local YOLO inference server and returns the detection result
 - **Output**:
 - JSON detection results
 
----
 
 ### YOLOResultToText
 
@@ -62,7 +60,6 @@ Convert YOLO's JSON results to a structured text format. The converted text can 
 - Natural language description and reasoning instructions (e.g., YOLO detection result, there are 1 people in the image.
 Among them: 1 person is wearing masks incorrectly.)
 
----
 
 ### WebKnowledgeFetcher
 
@@ -73,7 +70,6 @@ Used to fetch and extract relevant paragraph text from one or more web pages. Ca
 - **Output**:
 - Extracted web text containing "mask" related content
 
----
 
 ## Use Cases
 
