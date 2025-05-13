@@ -37,6 +37,7 @@ Filter bad words online using a customizable bad word list or URL list.
 - `badwords_url` (string, provided by default)
 - **Output**:
 - censored/filtered text (bad words are replaced with "***")
+---
 
 ### YOLO
 
