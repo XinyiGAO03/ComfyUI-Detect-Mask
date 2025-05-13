@@ -1,6 +1,8 @@
 # ComfyUI-Detect-Mask
 ComfyUI-Detect-Mask is a custom node package for ComfyUI. This node package contains a variety of different nodes that can help ComfyUI use the YOLO model to identify masks. Specific functions include: sending images to the YOLO API to obtain recognition results, extracting text from web pages, converting YOLO's json results to text, and obtaining sensitive word lists from web pages for sensitive word filtering.
 
+<img src="example.png" raw=true>
+
 ## Function
 
 - **comfyui-online-sensitive**: Load bad word lists from web pages to remove bad worsd in text.
@@ -30,7 +32,7 @@ https://github.com/XinyiGAO03/ComfyUI-Detect-Mask.git
 
 ### OnlineSensitiveFilter
 
-Filter bad words online using a customizable bad word list or URL list.
+Filter bad words online using a customizable bad word list or URL (https://www.cs.cmu.edu/~biglou/resources/bad-words.txt) list.
 
 - **Input**:
 - `text` (string)
